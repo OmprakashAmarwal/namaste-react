@@ -1,0 +1,17 @@
+* NPM manages all javaScript packages that we install in our system, these packages known as dependancies
+* Package.json is the configuration of NPM
+* Package.json will keep track of package what version of package has been install to the system. 
+* Package.lock.json will keep track of all packages exact version that is being installed. 
+* bundler basicaly bundles your application. it packages your app properly to push this to production.
+* parcel is the bundler which we need to install from npm using command (npm install -D parcel)
+* -D in npm install command is we want to install this Dependencies as devDependencies not normal Dependencies. 
+* there are 2 types of Dependencies an app can have 1) devDependencies and 2) Normal Dependencies 
+* devDependencies can use in development phase but normal Dependencies can use in production time.
+* NodeModule is creating lot of package folders.it's a collection of packages that all are transative Dependencies that can be dependant on lot of other packages.
+* NPX is executing package
+* CDN links are not prefered way to create React Application.
+
+* Run app in dev mode   
+npx parcel index.html
+* Run app in production version     just remove entry point main from packages.json
+npx parcel build index.html
