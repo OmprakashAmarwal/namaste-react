@@ -1,0 +1,7 @@
+* React Element's are equal to DOM elements     
+* React.createElement() method will create Object, when we render this object into DOM it bacomes HTML
+* React.createElement("div",{<Attribute eg Id,title>,"Value"})
+* var root = ReactDOM.createRoot() method will define the root of the application, so whatever will happen across react APP that will happen in this root 
+* root.render will render the elements in DOM
+* JSX is not writing HTML in React 
+* JSX is HTML like syntax
