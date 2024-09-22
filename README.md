@@ -1,6 +1,7 @@
 # Namaste React 
 
-# Parcel
+# Build Tool used Parcel
+# Features of Parcel
   - Dev Build 
   - Local Server 
   - HMR - Hot module Replacement 

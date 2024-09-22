@@ -1,3 +1,92 @@
-#heading{
-    color: red;
+.header{
+    display: flex;
+justify-content: space-between;
+border: 1px solid black;
+}
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 200px;
+}
+.nav-items{
+    padding: 0px 20px;
+}
+.nav-items > ul {
+    display: flex;
+  font-size: 24px;
+    list-style-type: none;
+}
+.nav-items > ul> li{
+     padding: 10px;
+     margin: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    cursor: pointer;
+
+    margin: 5px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.res-card>p{
+    font-size: 15px;
+    color: gray;
+    justify-content: stretch;
+}
+.discountInfo{
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+    color: white;
+    background-color: rgb(20, 85, 20);
+    padding: 4px;
+    border-bottom-right-radius: 12px;
+
+}
+.restroName{
+    font-size: 15px;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background: linear-gradient(to right, #eee, #fafafa 50%, #eee);
+}
+.Login-btn{
+    padding: 0 20px;
+    cursor: pointer;
+}
+.menu-items{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu>ul>li{
+    width: 50%;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+.menu-title{
+    font-size: 20px;
+    text-align: center;
 }
