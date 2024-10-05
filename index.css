@@ -90,3 +90,8 @@ border: 1px solid black;
     font-size: 20px;
     text-align: center;
 }
+.user-card{
+    padding: 0 10px;
+    background: #eee;
+    border: 1px solid burlywood;
+}
